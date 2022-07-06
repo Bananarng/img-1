@@ -1,2 +1,66 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+	<head>
+	<!-- BOX creation and stylization -->
+		<style>
+			.myDiv {
+			background-color: white;
+			text-align: justified;
+			margin-left: 60px;
+			margin-top: 60px;
+			margin-right: 60px;
+			margin-bottom: 60px;
+			padding-left: 500px;
+			padding-right: 510px;
+			padding-top: 80px;
+			padding-bottom: 230px;
+			box-shadow: 5px 2px 5px lightgrey inset;
+			line-height: 1.5;
+			font-family: 'Times New Roman', serif;
+			}
+		</style>
+	<!-- underline creation and stylization -->
+		<style>	
+			u {
+			text-decoration: underline;
+			text-decoration-color: yellow;
+			text-decoration-thickness: 5px;
+			}
+		</style>
+	<!-- image margin and stylization -->
+		<style>
+			i {
+			margin-left: 10px;
+			}
+		</style>
+	<!-- header font -->
+		<style>
+			font {
+			font-family: 'Garamond', serif;
+			}
+		</style>
+		<style>
+			tfont {
+			font-family: 'Courier New', monospace;
+			}
+		</style>
+	</head>
+	<body bgcolor=yellow>
+		<div class="myDiv">
+			<h1><font>Hi there.</font></h1>
+			<p>
+				<tfont>MY NAME IS JULES</tfont> and i'm a designer fellow/type nerd at 							<br>
+				<b><u>Sequoia Capital</u></b> in Menlo Park. I've also worket as a product						<br>
+				designer at <b><u>Chain</u></b> and <b><u>Medium</u></b>, and was one of <b><u>Designer</u></b>	<br>
+				<b><u>Fund's</u></b> Bridge designers.															<br>
+			</p>
+			<p>
+				I like building design systems that prioritize consistency over <br>
+				pixel-perfection. Let's get coffee?
+				</p>
+			<br>
+			<hr style="width:100%">	
+			<br>
+			<img src="facebook.png"> <i><img src="instagram.png"></i> <i><img src="twitter.png"></i> <i><img src="unity.png"></i> <i><img src="xbox.png"></i>
+		</div>
+	</body>
+</html>
